@@ -86,3 +86,8 @@ Frontend:
 cd vimes-frontend
 npm test
 ```
+
+## Troubleshooting
+
+- Nếu gặp lỗi `eslint/vitest not found`, hãy chạy lại `npm install` trong thư mục tương ứng.
+- Nếu gặp lỗi `vitest: Permission denied`, thử xóa `node_modules` và cài lại để khôi phục quyền thực thi.
